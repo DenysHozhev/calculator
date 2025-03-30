@@ -1,0 +1,132 @@
+.mobile {
+  width: 270px;
+  height: auto;
+  border: solid, 1px, black;
+  border-radius: 38px;
+  background-color: #f8f9ec;
+}
+
+.first-string {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: baseline;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.camera {
+  width: 20px;
+  height: 20px;
+  border: solid, 1px, black;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dinamick {
+  width: 70px;
+  height: 10px;
+  border: solid, 1px, black;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.container {
+  border: solid, 1px, black;
+  width: 250px;
+  height: 400px;
+  background-color: black;
+  margin-top: 25px;
+
+  margin-left: 10px;
+}
+
+.calc-disp {
+  height: 50px;
+  width: 220px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.calc-btn,
+.num-btn,
+.sys-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.sys-btn {
+  border: solid, 1px, rgb(171, 166, 166);
+  background-color: rgb(171, 166, 166);
+  color: black;
+}
+
+.sys-btn:hover {
+  background-color: rgba(165, 165, 165, 0.9);
+  border-color: rgba(165, 165, 165, 0.9);
+}
+
+.calc-btn {
+  border: solid, 1px, rgb(214, 125, 16);
+  background-color: rgb(214, 125, 16);
+  color: aliceblue;
+}
+
+.calc-btn:hover {
+  background-color: rgba(214, 125, 16, 0.907);
+  border-color: rgba(214, 125, 16, 0.907);
+}
+
+.num-btn {
+  border: solid, 1px, rgba(79, 78, 78, 0.678);
+  background-color: rgba(79, 78, 78, 0.678);
+  color: aliceblue;
+}
+
+.num-btn:hover {
+  background-color: rgba(79, 78, 78, 0.533);
+  border-color: rgba(79, 78, 78, 0.533);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+
+  /* grid-template-columns: auto; */
+  /* grid-gap: 10px; */
+  /* grid-template-rows: auto; */
+  /* grid-auto-rows: minmax(10px, auto); */
+}
+
+.exit-btn {
+  border-radius: 50%;
+  border: solid, 1px, silver;
+  width: 50px;
+  height: 50px;
+  margin: 15px auto 15px;
+  margin-left: 110px;
+  background-color: rgb(255, 255, 255);
+}
+
+.hidden {
+  display: none;
+}
+
+#time {
+  color: #f8f9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  font-size: 46px;
+}
+#time.hidden {
+  display: none;
+}
