@@ -8,11 +8,14 @@
 
 .first-string {
   display: flex;
+  -webkit-display: flex;
   gap: 10px;
   align-items: center;
   justify-content: baseline;
   margin-left: 70px;
+  -webkit-margin-left: 70px;
   margin-top: 25px;
+  -webkit-margin-top: 25px;
 }
 
 .camera {
@@ -43,8 +46,9 @@
 
 .calc-disp {
   height: 50px;
-  width: 220px;
+  max-width: 220px;
   margin: 10px;
+  -webkit-margin: 10px;
   font-size: 40px;
 }
 
@@ -62,17 +66,20 @@
 .sys-btn {
   border: solid, 1px, rgb(171, 166, 166);
   background-color: rgb(171, 166, 166);
+  -webkit-background-color: rgb(171, 166, 166);
   color: black;
 }
 
 .sys-btn:hover {
   background-color: rgba(165, 165, 165, 0.9);
   border-color: rgba(165, 165, 165, 0.9);
+  -webkit-border-color: rgba(165, 165, 165, 0.9);
 }
 
 .calc-btn {
   border: solid, 1px, rgb(214, 125, 16);
   background-color: rgb(214, 125, 16);
+  -webkit-background-color: rgb(214, 125, 16);
   color: aliceblue;
 }
 
